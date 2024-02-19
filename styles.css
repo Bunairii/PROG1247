@@ -1,0 +1,160 @@
+/* styles.css */
+
+/* Font styles */
+html {
+    font: 20px/1.5 'Arial', sans-serif;
+}
+
+h1, h2 {
+    font-variant: small-caps;
+}
+
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.2rem; 
+}
+
+q {
+    font-style: italic;
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+
+footer p {
+    font-size: 0.8rem; 
+}
+
+
+
+body {
+    width: 80%; 
+    max-width: 960px; 
+  }
+  
+  .img-class img {
+    width: 100%; 
+    height: auto; 
+  }
+  
+  
+  .figure-class {
+    width: 80%; 
+    height: auto; 
+  }
+  
+  iframe, video {
+    width: 100%; 
+  }
+
+body {
+    padding: 1rem;
+    margin: 0 auto; 
+  }
+  
+  
+  header, footer {
+    text-align: center; 
+  }
+  
+  
+  .main-section {
+    text-align: center; 
+    padding: 1rem; 
+  }
+  
+ 
+  #bio-quote {
+    text-align: left; 
+  }
+  
+  
+  .img-class img {
+    padding: 0.5rem; 
+  }
+  
+  
+  .figure-class {
+    padding: 1rem; 
+    margin: 1rem 0; 
+    text-align: center; 
+  }
+  
+  
+  #quote-with-q q {
+    padding: 0.5rem; 
+  }
+  
+  iframe, video {
+    padding: 0.5rem; 
+  }
+
+  
+header, footer {
+    border: 2px solid #336699; 
+  }
+  
+
+  .img-class img {
+    border-radius: 8px; 
+  }
+  
+  #relative-path-image {
+    border: 1px solid rgb(100, 100, 100); 
+    border-radius: 10px; 
+  }
+  
+  #absolute-path-image {
+    border: 2px solid rgb(17, 0, 255); 
+    border-radius: 10px; 
+    
+  }
+  
+  iframe, video {
+    border: 1px solid rgb(128, 83, 0);
+    border-radius: 8px; 
+    
+  }
+  
+  #quote-with-q q {
+    border: 1px solid #333; 
+  }
+  
+  #quote-with-q q {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+  
+  iframe, video {
+    border: 1px solid #999; 
+  }
+  
+#relative-path-image figcaption {
+    color: rgb(0, 0, 0);
+  }
+  
+  #absolute-path-image figcaption {
+    color: rgba(0, 0, 0, 0.24); 
+  }
+  
+  h1, h2 {
+    color: navy; 
+  }
+  
+header, footer {
+    background: linear-gradient(to bottom, #336699, #003366); 
+  }
+  
+  
+  .main-section {
+    background-color: hsla(210, 50%, 80%, 0.8); 
+  }
+  
+  #absolute-path-image {
+    background-color: hsla(182, 70%, 60%, 0.6); 
+  }
+  
+  #relative-path-image {
+    background-color: hsla(182, 70%, 60%, 0.6); 
+  }
+
+  
